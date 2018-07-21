@@ -9,6 +9,6 @@ gem 'rufus-scheduler', '3.4.0'
 
 group :development do
   gem "shoulda"  , ">= 0"
-  gem "bundler"  , "~> 1.15.1"
+  gem "bundler"  , "~> 1.16.2"
   gem "simplecov", ">= 0"
 end
