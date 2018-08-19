@@ -1,7 +1,7 @@
 FROM        959013096341.dkr.ecr.eu-central-1.amazonaws.com/versioneye-core:1.0.2
 MAINTAINER  Robert Reiz <reiz@versioneye.com>
 
-ENV RAILS_ENV enterprise
+ENV RAILS_ENV production
 
 # Install the AWS CLI
 RUN apt-get update && apt-get -y install python python-dev python-pip python-setuptools groff less curl zip unzip && cd /tmp && \
