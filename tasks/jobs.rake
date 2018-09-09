@@ -1,5 +1,6 @@
 require 'versioneye-core'
 require 'rufus-scheduler'
+require 'rails/mongoid'
 
 namespace :versioneye do
 
