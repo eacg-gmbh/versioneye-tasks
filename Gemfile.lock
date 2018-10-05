@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/eacg-gmbh/versioneye-core.git
-  revision: 51b082da1409824069d4b718c5d545fb8a99b1cd
-  tag: v13.1.2
+  revision: 4fb8e59fe7cabd6799aea287617bbd1b6827087d
+  tag: v13.1.3
   specs:
     versioneye-core (13.1.2)
       actionmailer (~> 5.1.0)
