@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/eacg-gmbh/versioneye-core.git
-  revision: e312b39a50acc52e6e138b6564ac3794c29fd34a
-  tag: v13.1.1
+  revision: 51b082da1409824069d4b718c5d545fb8a99b1cd
+  tag: v13.1.2
   specs:
-    versioneye-core (13.0.0)
+    versioneye-core (13.1.2)
       actionmailer (~> 5.1.0)
       aws-sdk (~> 2.10.7)
       bunny (~> 2.7.0)
@@ -31,33 +31,33 @@ GIT
 GEM
   remote: http://rubygems.org/
   specs:
-    actionmailer (5.1.4)
-      actionpack (= 5.1.4)
-      actionview (= 5.1.4)
-      activejob (= 5.1.4)
+    actionmailer (5.1.6)
+      actionpack (= 5.1.6)
+      actionview (= 5.1.6)
+      activejob (= 5.1.6)
       mail (~> 2.5, >= 2.5.4)
       rails-dom-testing (~> 2.0)
-    actionpack (5.1.4)
-      actionview (= 5.1.4)
-      activesupport (= 5.1.4)
+    actionpack (5.1.6)
+      actionview (= 5.1.6)
+      activesupport (= 5.1.6)
       rack (~> 2.0)
       rack-test (>= 0.6.3)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.0, >= 1.0.2)
-    actionview (5.1.4)
-      activesupport (= 5.1.4)
+    actionview (5.1.6)
+      activesupport (= 5.1.6)
       builder (~> 3.1)
       erubi (~> 1.4)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.0, >= 1.0.3)
-    activejob (5.1.4)
-      activesupport (= 5.1.4)
+    activejob (5.1.6)
+      activesupport (= 5.1.6)
       globalid (>= 0.3.6)
-    activemodel (5.1.4)
-      activesupport (= 5.1.4)
-    activesupport (5.1.4)
+    activemodel (5.1.6)
+      activesupport (= 5.1.6)
+    activesupport (5.1.6)
       concurrent-ruby (~> 1.0, >= 1.0.2)
-      i18n (~> 0.7)
+      i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     addressable (2.5.2)
@@ -83,16 +83,16 @@ GEM
     concurrent-ruby (1.0.5)
     crass (1.0.4)
     dalli (2.7.8)
-    docile (1.1.5)
+    docile (1.3.1)
     domain_name (0.5.20180417)
       unf (>= 0.0.5, < 1.0.0)
     erlang_config (0.0.1)
     erubi (1.7.1)
-    et-orbi (1.0.9)
+    et-orbi (1.1.6)
       tzinfo
     etcd (0.3.0)
       mixlib-log
-    faraday (0.15.2)
+    faraday (0.15.3)
       multipart-post (>= 1.2, < 3)
     fuzzy_match (2.0.4)
     gemnasium-parser (0.1.9)
@@ -105,7 +105,7 @@ GEM
       domain_name (~> 0.5)
     httparty (0.15.7)
       multi_xml (>= 0.5.2)
-    i18n (0.9.3)
+    i18n (1.1.0)
       concurrent-ruby (~> 1.0)
     jmespath (1.4.0)
     json (2.1.0)
@@ -131,7 +131,7 @@ GEM
     naturalsorter (3.0.19)
     net-ldap (0.16.1)
     netrc (0.11.0)
-    nokogiri (1.8.4)
+    nokogiri (1.8.5)
       mini_portile2 (~> 2.3.0)
     oauth (0.5.4)
     octokit (4.7.0)
@@ -162,14 +162,14 @@ GEM
       addressable (>= 2.3.5, < 2.6)
       faraday (~> 0.8, < 1.0)
     semverly (1.0.0)
-    shoulda (3.5.0)
+    shoulda (3.6.0)
       shoulda-context (~> 1.0, >= 1.0.1)
-      shoulda-matchers (>= 1.4.1, < 3.0)
+      shoulda-matchers (~> 3.0)
     shoulda-context (1.2.2)
-    shoulda-matchers (2.8.0)
-      activesupport (>= 3.0.0)
-    simplecov (0.15.1)
-      docile (~> 1.1.0)
+    shoulda-matchers (3.1.2)
+      activesupport (>= 4.0.0)
+    simplecov (0.16.1)
+      docile (~> 1.1)
       json (>= 1.8, < 3)
       simplecov-html (~> 0.10.0)
     simplecov-html (0.10.2)
@@ -185,7 +185,7 @@ GEM
       rake
       rest-client (~> 1.6)
     tomlrb (1.2.7)
-    tzinfo (1.2.4)
+    tzinfo (1.2.5)
       thread_safe (~> 0.1)
     unf (0.1.4)
       unf_ext
@@ -208,4 +208,4 @@ DEPENDENCIES
   versioneye-core!
 
 BUNDLED WITH
-   1.16.3
+   1.16.6
